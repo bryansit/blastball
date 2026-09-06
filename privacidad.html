@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de Privacidad — BlastBall</title>
+<style>
+  :root{
+    --bg:#050510;
+    --bg-panel:#0b0d20;
+    --line:rgba(255,255,255,.10);
+    --text:#eef1ff;
+    --text-dim:#9aa1c9;
+    --cyan:#4fd8ff;
+    --gold:#ffd76b;
+    --max:760px;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:
+      radial-gradient(ellipse 120% 60% at 50% -10%, #1c2354 0%, transparent 55%),
+      var(--bg);
+    color:var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{ max-width:var(--max); margin:0 auto; padding:56px 22px 90px; }
+  header{ margin-bottom:38px; }
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:8px; font-size:12.5px; font-weight:800;
+    color:var(--cyan); letter-spacing:.02em; margin-bottom:14px;
+  }
+  .eyebrow .dot{ width:6px; height:6px; border-radius:50%; background:var(--cyan); box-shadow:0 0 8px var(--cyan); }
+  h1{ font-size:clamp(28px,5vw,38px); font-weight:900; letter-spacing:-0.01em; margin:0 0 10px; line-height:1.15; }
+  .updated{ color:var(--text-dim); font-size:13.5px; }
+  .lede{ color:var(--text-dim); font-size:16px; margin-top:20px; max-width:62ch; }
+
+  nav.toc{
+    margin:34px 0 46px; padding:18px 20px; background:var(--bg-panel); border:1px solid var(--line);
+    border-radius:14px;
+  }
+  nav.toc .toc-title{ font-size:12px; font-weight:800; letter-spacing:.06em; color:var(--text-dim); text-transform:uppercase; margin-bottom:10px; }
+  nav.toc ol{ margin:0; padding-left:20px; columns:1; }
+  nav.toc li{ margin-bottom:6px; font-size:14px; }
+  nav.toc a{ color:var(--text); text-decoration:none; }
+  nav.toc a:hover{ color:var(--cyan); }
+
+  section{ margin:0 0 40px; scroll-margin-top:24px; }
+  section h2{
+    font-size:20px; font-weight:800; margin:0 0 14px; padding-bottom:10px;
+    border-bottom:1px solid var(--line); display:flex; align-items:baseline; gap:10px;
+  }
+  section h2 .n{ color:var(--cyan); font-variant-numeric:tabular-nums; }
+  section h3{ font-size:15px; font-weight:800; color:var(--cyan); margin:20px 0 6px; }
+  p{ margin:0 0 12px; color:var(--text); }
+  p.dim{ color:var(--text-dim); font-size:14px; }
+  ul{ margin:0 0 12px; padding-left:20px; }
+  li{ margin-bottom:6px; }
+  strong{ color:#fff; }
+
+  .callout{
+    background:rgba(79,216,255,.08); border:1px solid rgba(79,216,255,.3); border-radius:12px;
+    padding:14px 16px; font-size:13.5px; color:var(--text-dim); margin:14px 0;
+  }
+  .callout b{ color:var(--cyan); }
+
+  .fillme{
+    background:rgba(255,215,107,.12); color:var(--gold); border:1px dashed rgba(255,215,107,.5);
+    border-radius:6px; padding:1px 7px; font-size:.92em; font-weight:700;
+  }
+
+  table{ width:100%; border-collapse:collapse; margin:10px 0 16px; font-size:14px; }
+  th,td{ text-align:left; padding:9px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th{ color:var(--text-dim); font-weight:700; font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
+
+  footer{ margin-top:60px; padding-top:24px; border-top:1px solid var(--line); color:var(--text-dim); font-size:13px; }
+  footer a{ color:var(--cyan); }
+
+  @media (max-width:520px){
+    .wrap{ padding:40px 16px 70px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow"><span class="dot"></span>BLASTBALL</div>
+    <h1>Política de Privacidad</h1>
+    <div class="updated">Última actualización: <span class="fillme">[fecha]</span></div>
+    <p class="lede">Esta página explica, en lenguaje simple, qué información maneja BlastBall, dónde vive y qué control tenés sobre ella. La app está diseñada para funcionar por completo en tu dispositivo, sin enviar tus datos a ningún servidor.</p>
+  </header>
+
+  <nav class="toc">
+    <div class="toc-title">Contenido</div>
+    <ol>
+      <li><a href="#resumen">Resumen rápido</a></li>
+      <li><a href="#datos-que-guardamos">Qué datos guarda la app</a></li>
+      <li><a href="#datos-que-no">Qué NO hacemos</a></li>
+      <li><a href="#donde-viven">Dónde viven tus datos</a></li>
+      <li><a href="#permisos">Permisos del dispositivo</a></li>
+      <li><a href="#menores">Uso por menores de edad</a></li>
+      <li><a href="#derechos">Tus derechos sobre tus datos</a></li>
+      <li><a href="#preferencias">Preferencias de privacidad</a></li>
+      <li><a href="#terceros">Servicios de terceros</a></li>
+      <li><a href="#cambios">Cambios a esta política</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ol>
+  </nav>
+
+  <section id="resumen">
+    <h2><span class="n">01</span> Resumen rápido</h2>
+    <p>Para quienes no quieren leer todo el documento:</p>
+    <ul>
+      <li>BlastBall <strong>no tiene servidores propios</strong> ni cuentas de usuario: todo se guarda en tu teléfono.</li>
+      <li><strong>No vendemos ni compartimos</strong> información con terceros, porque no la recolectamos en primer lugar.</li>
+      <li><strong>No hay publicidad</strong> dentro del juego.</li>
+      <li>Podés borrar todos tus datos en cualquier momento desinstalando la app o limpiando su almacenamiento desde los ajustes de tu sistema operativo.</li>
+    </ul>
+    <div class="callout"><b>Nota:</b> este documento es una plantilla general pensada para una app de un solo jugador sin backend. Si en el futuro agregás cuentas de usuario, publicidad, analítica en la nube o compras dentro de la app, este texto debe actualizarse para reflejarlo con precisión.</div>
+  </section>
+
+  <section id="datos-que-guardamos">
+    <h2><span class="n">02</span> Qué datos guarda la app</h2>
+    <p>BlastBall guarda la siguiente información <strong>únicamente en el almacenamiento local de tu dispositivo</strong> (nunca en un servidor):</p>
+    <table>
+      <tr><th>Dato</th><th>Para qué se usa</th></tr>
+      <tr><td>Mejor puntaje</td><td>Mostrar tu récord personal</td></tr>
+      <tr><td>Puntaje semanal (Torneo Semanal y Relámpago)</td><td>Mostrar tu posición en la tabla de la semana</td></tr>
+      <tr><td>Progreso y racha del reto diario</td><td>Seguimiento de tus retos completados día a día</td></tr>
+      <tr><td>Nombre de usuario (si lo escribís)</td><td>Mostrarlo en tu perfil dentro de la app</td></tr>
+      <tr><td>Preferencias (sonido, vibración, aceptación de términos)</td><td>Recordar tu configuración entre sesiones</td></tr>
+    </table>
+    <p class="dim">Nada de esto identifica quién sos en el mundo real: no pedimos ni guardamos tu nombre legal, correo electrónico, número de teléfono, ni ningún otro dato de identificación personal.</p>
+  </section>
+
+  <section id="datos-que-no">
+    <h2><span class="n">03</span> Qué NO hacemos</h2>
+    <ul>
+      <li>No recolectamos datos personales identificables (nombre real, correo, teléfono, ubicación).</li>
+      <li>No usamos rastreadores de publicidad ni SDKs de analítica de terceros.</li>
+      <li>No compartimos ni vendemos información a otras empresas.</li>
+      <li>No mostramos anuncios dentro del juego.</li>
+      <li>No accedemos a tu cámara, micrófono, contactos, galería ni ubicación.</li>
+    </ul>
+  </section>
+
+  <section id="donde-viven">
+    <h2><span class="n">04</span> Dónde viven tus datos</h2>
+    <p>Toda la información mencionada arriba se guarda en el almacenamiento local del navegador integrado en la app (equivalente a <code>localStorage</code>), dentro de la memoria propia de la aplicación en tu dispositivo Android. Ese espacio:</p>
+    <ul>
+      <li>No sale de tu teléfono en ningún momento.</li>
+      <li>Se borra automáticamente si desinstalás la app.</li>
+      <li>Podés borrarlo manualmente desde <em>Ajustes del sistema → Apps → BlastBall → Almacenamiento → Borrar datos</em>.</li>
+    </ul>
+  </section>
+
+  <section id="permisos">
+    <h2><span class="n">05</span> Permisos del dispositivo</h2>
+    <p>BlastBall puede solicitar el permiso de <strong>vibración</strong> del dispositivo, usado únicamente para dar una respuesta táctil breve al disparar o romper bloques. Podés desactivarlo en cualquier momento desde <em>Yo → Ajustes → Vibración</em> dentro de la app. No se solicita ningún otro permiso del sistema.</p>
+  </section>
+
+  <section id="menores">
+    <h2><span class="n">06</span> Uso por menores de edad</h2>
+    <p>BlastBall no está dirigida específicamente a niños y no recolecta datos personales de ningún usuario, sin importar su edad, ya que toda la información se guarda localmente y de forma anónima. Si sos madre, padre o tutor y tenés preguntas sobre el uso de la app por parte de un menor, podés contactarnos usando los datos de la sección <a href="#contacto">Contacto</a>.</p>
+  </section>
+
+  <section id="derechos">
+    <h2><span class="n">07</span> Tus derechos sobre tus datos</h2>
+    <p>Como toda tu información vive únicamente en tu dispositivo, vos tenés el control directo y total sobre ella. En términos de privacidad, esto se traduce en los siguientes derechos:</p>
+
+    <h3>Acceso</h3>
+    <p>Podés ver en todo momento qué datos guarda la app entrando a <em>Yo</em> dentro del juego: ahí se muestran tu mejor puntaje, tu nombre de usuario y tus ajustes actuales.</p>
+
+    <h3>Rectificación</h3>
+    <p>Podés corregir tu nombre de usuario cuando quieras desde <em>Yo → Ajustes → Nombre de usuario</em>.</p>
+
+    <h3>Eliminación</h3>
+    <p>Podés borrar todos tus datos de dos formas: desinstalando la app, o desde <em>Ajustes del sistema → Apps → BlastBall → Almacenamiento → Borrar datos</em>. Esta acción es inmediata e irreversible.</p>
+
+    <h3>Oposición</h3>
+    <p>Podés optar por no completar tu nombre de usuario, desactivar el sonido o la vibración, y elegir no compartir estadísticas de uso anónimas (ver siguiente sección) sin que eso afecte el funcionamiento del juego.</p>
+
+    <h3>Portabilidad</h3>
+    <p>Como no existe una cuenta en la nube, no hay un "exportar mis datos" centralizado; sin embargo, toda tu información es visible dentro de la propia app en cualquier momento.</p>
+  </section>
+
+  <section id="preferencias">
+    <h2><span class="n">08</span> Preferencias de privacidad</h2>
+    <p>Dentro de <em>Yo → Preferencias de privacidad</em>, la app incluye un interruptor opcional para <strong>compartir estadísticas de uso anónimas</strong>. Hoy en día este interruptor no envía información a ningún lado, porque BlastBall todavía no tiene analítica activa: existe para que, si en el futuro se agrega analítica agregada y anónima, vos ya tengas el control de activarla o mantenerla apagada. Podés cambiar esta preferencia cuando quieras, y tu elección no afecta tu progreso ni tu experiencia de juego.</p>
+  </section>
+
+  <section id="terceros">
+    <h2><span class="n">09</span> Servicios de terceros</h2>
+    <p>BlastBall no integra actualmente SDKs de terceros para analítica, publicidad o inicio de sesión. Si tu dispositivo cuenta con Google Play Services, ten en cuenta que Google puede recolectar cierta información técnica estándar (como datos de instalación o rendimiento) de forma independiente a esta app, conforme a la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a>.</p>
+  </section>
+
+  <section id="cambios">
+    <h2><span class="n">10</span> Cambios a esta política</h2>
+    <p>Si actualizamos esta política, publicaremos la nueva versión en esta misma página con la fecha de actualización correspondiente, y lo indicaremos también dentro de la app cuando el cambio sea significativo (por ejemplo, si se agrega recolección de datos que hoy no existe).</p>
+  </section>
+
+  <section id="contacto">
+    <h2><span class="n">11</span> Contacto</h2>
+    <p>Si tenés preguntas sobre esta política o sobre tus datos, podés escribirnos a:</p>
+    <p><span class="fillme">[correo de contacto]</span> — <span class="fillme">[nombre del desarrollador o empresa]</span></p>
+  </section>
+
+  <footer>
+    <p>Este documento es una plantilla redactada para BlastBall, una app de un solo jugador sin servidores propios. No reemplaza asesoría legal profesional — te recomendamos que un abogado la revise antes de publicar la app, sobre todo si más adelante sumás cuentas de usuario, publicidad o compras dentro de la app.</p>
+    <p>Ver también: <a href="terminos.html">Términos y Condiciones</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
